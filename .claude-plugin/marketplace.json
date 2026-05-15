@@ -1,0 +1,23 @@
+{
+  "name": "praetom",
+  "owner": {
+    "name": "Standard Reasoning",
+    "email": "hello@praetom.com",
+    "url": "https://praetom.com"
+  },
+  "plugins": [
+    {
+      "name": "praetom",
+      "source": "./",
+      "description": "Production intelligence for AI-generated code. Ask agents about feature contracts, instrumentation coverage, code activity.",
+      "homepage": "https://praetom.com",
+      "keywords": [
+        "observability",
+        "production",
+        "mcp",
+        "feature-contracts",
+        "code-intelligence"
+      ]
+    }
+  ]
+}

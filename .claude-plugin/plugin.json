@@ -1,0 +1,25 @@
+{
+  "name": "praetom",
+  "version": "0.5.0",
+  "description": "Production intelligence for AI-generated code. Ask agents about feature contracts, instrumentation coverage, code activity.",
+  "homepage": "https://praetom.com",
+  "repository": "https://github.com/standard-reasoning/praetom-plugin",
+  "author": {
+    "name": "Standard Reasoning",
+    "email": "hello@praetom.com",
+    "url": "https://praetom.com"
+  },
+  "keywords": [
+    "observability",
+    "production",
+    "mcp",
+    "feature-contracts",
+    "code-intelligence"
+  ],
+  "mcpServers": {
+    "praetom": {
+      "type": "http",
+      "url": "https://praetom.com/mcp"
+    }
+  }
+}

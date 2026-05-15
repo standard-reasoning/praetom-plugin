@@ -1,0 +1,16 @@
+{
+  "description": "Praetom drift hook — checks file edits against feature contracts and surfaces health + suggestions inline",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/check-edit.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}
